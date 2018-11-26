@@ -12,19 +12,24 @@ import android.support.v4.content.ContextCompat.getSystemService
 import kotlinx.android.synthetic.main.activity_main.*
 
 
+
+
+
 class MainActivity : AppCompatActivity() {
+
 
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
   startService(Intent(this,DemoService::class.java))
 
 
     }
+
 }
 
 
-
-
+//Toast.makeText(this,clipboardManager.primaryClip.toString(),Toast.LENGTH_LONG).show()
