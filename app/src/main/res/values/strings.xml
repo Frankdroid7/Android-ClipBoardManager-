@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ClipBoardManager</string>
+    <string name="working">It\'s Working</string>
+    <string name="move_to_second_activity">move to second activity</string>
+    <string name="change_text">Change text</string>
+    <string name="paste">Paste</string>
+    <string name="copy">Copy</string>
+    <string name="change_text_to">Change Text to...</string>
+    <string name="check_description">Check Description</string>
 </resources>
